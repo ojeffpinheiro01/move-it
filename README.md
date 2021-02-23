@@ -72,8 +72,8 @@ $ npm install
 $ yarn start
 or 
 $ npm run start
----
 ```
+---
 
 # :gear: How to contribute 
 ```bash
