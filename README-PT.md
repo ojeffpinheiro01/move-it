@@ -15,7 +15,7 @@
 </p>
 
 # :book: Sobre o projeto 
-Baseada na técnica de pomodoro, o move.it tem como objetivo é ajudar a galera que fica na frente do computador por um longo período e acaba deixando de se exercitar, desafiando o usúario de uma forma divertida.
+Baseada na técnica de pomodoro, o move.it tem como objetivo é ajudar a galera que fica na frente do computador por um longo período e acaba deixando de se exercitar, desafiando o usuário de uma forma divertida.
 O move.it é uma aplicação que está sendo desenvolvida durante a Next Level Week #3 - Trilha ReactJs - oferecida pela Rocketseat
  <h4 align="center">:construction: Em desenvolvimento :construction:</h4>
  
