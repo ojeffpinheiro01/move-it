@@ -1,4 +1,4 @@
-## [Leia esta página em português](https://github.com/ojeffpinheiro01/moveit/blob/main/README-PT.md)
+## [Leia esta página em português](https://github.com/ojeffpinheiro01/move-it/blob/main/README-PT.md)
 <h1 align="center">
    <img src="https://user-images.githubusercontent.com/60162736/108780878-d022c700-7547-11eb-9288-63242915c9ad.png">
 </h1>
