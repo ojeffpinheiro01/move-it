@@ -4,8 +4,8 @@
   
 <p align="center">
   <a href="#book-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#eyes-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#eyes-previw">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#eyes-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#pencil-tarefas">Tarefas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
@@ -22,6 +22,11 @@ O move.it é uma aplicação que está sendo desenvolvida durante a Next Level W
  
 ---
 
+# :eyes: Demo
+Deploy no [Vercel](https://move-it-amber.vercel.app)
+
+---
+
 # :eyes: Preview
 ## Web Screenshot
 <div>
@@ -30,11 +35,6 @@ O move.it é uma aplicação que está sendo desenvolvida durante a Next Level W
    <img src="https://user-images.githubusercontent.com/60162736/108933227-8ad6c600-7629-11eb-8345-cf0c203aee46.png" width="400px">
    <img src="https://user-images.githubusercontent.com/60162736/108933228-8ad6c600-7629-11eb-8a19-f81d764eb008.png" width="400px">   
 </div>
-
----
-
-# :eyes: Demo
-Deploy no [Vercel](https://move-it-amber.vercel.app)
 
 ---
 
