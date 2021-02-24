@@ -54,7 +54,7 @@ The Layout was developed by [Tiago Luchtenberg](https://www.instagram.com/tiagol
 # :pencil: To Do
 - [x] Lesson 01
 - [x] Lesson 02
-- [ ] Lesson 03
+- [x] Lesson 03
 - [ ] Lesson 04
 - [ ] Lesson 05
 - [ ] Desafios
