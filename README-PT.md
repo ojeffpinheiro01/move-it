@@ -2,18 +2,34 @@
 
 <h1 align="center"><img src="https://user-images.githubusercontent.com/60162736/108780878-d022c700-7547-11eb-9288-63242915c9ad.png"></h1>
   
-<p align="center">
-  <a href="#book-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#eyes-previw">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#eyes-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#pencil-tarefas">Tarefas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#fire-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#gear-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#mailbox-contato">Contato</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#siga-me">Siga-me</a>
-</p>
+
+<img align="right" src="imgs/icon.svg" width="45%" alt="Move.it">
+
+## Menu
+
+[Overview](#book-overview)
+
+[Demo](#eyes-demo)
+
+[Preview](#eyes-demo)
+
+[Technology](#rocket-technology)
+
+[Layout](#art-layout)
+
+[To Do](#pencil-to-do)
+
+[Running the project](#fire-running-the-project)
+
+[How to contribute](#gear-how-to-contribute)
+
+[Reach me](#mailbox-reach-me)
+
+[Connect with me](#connect-with-me)
+
+<br>
+ 
+---
 
 # :book: Sobre o projeto 
 Baseada na técnica de pomodoro, o move.it tem como objetivo é ajudar a galera que fica na frente do computador por um longo período e acaba deixando de se exercitar, desafiando o usuário de uma forma divertida.
