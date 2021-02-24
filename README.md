@@ -31,10 +31,10 @@ Deploy on [Vercel](https://move-it-amber.vercel.app)
 # :eyes: Preview
 ## Web Screenshot
 <div>
-   <img src="https://user-images.githubusercontent.com/60162736/108933223-89a59900-7629-11eb-93fa-70d4e5aa5627.png" width="460px">
-   <img src="https://user-images.githubusercontent.com/60162736/108933226-8a3e2f80-7629-11eb-9f62-02b756c0ac17.png" width="460px">
-   <img src="https://user-images.githubusercontent.com/60162736/108933227-8ad6c600-7629-11eb-8345-cf0c203aee46.png" width="460px">
-   <img src="https://user-images.githubusercontent.com/60162736/108933228-8ad6c600-7629-11eb-8a19-f81d764eb008.png" width="460px">   
+   <img src="https://user-images.githubusercontent.com/60162736/108933223-89a59900-7629-11eb-93fa-70d4e5aa5627.png" width="420px">
+   <img src="https://user-images.githubusercontent.com/60162736/108933226-8a3e2f80-7629-11eb-9f62-02b756c0ac17.png" width="420px">
+   <img src="https://user-images.githubusercontent.com/60162736/108933227-8ad6c600-7629-11eb-8345-cf0c203aee46.png" width="420px">
+   <img src="https://user-images.githubusercontent.com/60162736/108933228-8ad6c600-7629-11eb-8a19-f81d764eb008.png" width="420px">   
 </div>
 
 ---
