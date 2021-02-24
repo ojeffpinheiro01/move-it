@@ -4,7 +4,7 @@
   
 <p align="center">
   <a href="#book-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#eyes-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#eyes-demo">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#pencil-tarefas">Tarefas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
@@ -21,9 +21,8 @@ O move.it é uma aplicação que está sendo desenvolvida durante a Next Level W
  
 ---
 
-# :eyes: Preview 
-<p align="center">:computer: Desktop</p>
-<p align="center">:iphone: Mobile</p>
+# :eyes: Demo
+Deploy no [Vercel](https://move-it-amber.vercel.app)
 
 ---
 
