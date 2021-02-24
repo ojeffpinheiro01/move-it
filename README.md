@@ -5,7 +5,7 @@
   
 <p align="center">
   <a href="#book-overview">Overview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#eyes-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+  <a href="#eyes-demo">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
   <a href="#rocket-technology">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#pencil-to-do">To Do</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
@@ -22,9 +22,8 @@ Move.it is an application that is being developed during the Next Level Week # 3
  
 ---
 
-# :eyes: Preview
-<p align="center">:computer: Desktop</p>
-<p align="center">:iphone: Mobile</p>
+# :eyes: Demo
+Deploy on [Vercel](https://move-it-amber.vercel.app)
 
 ---
 
