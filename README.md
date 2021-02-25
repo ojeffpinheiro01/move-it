@@ -68,7 +68,7 @@ The Layout was developed by [Tiago Luchtenberg](https://www.instagram.com/tiagol
 - [x] Lesson 01
 - [x] Lesson 02
 - [x] Lesson 03
-- [ ] Lesson 04
+- [x] Lesson 04
 - [ ] Lesson 05
 - [ ] Desafios
 ---
