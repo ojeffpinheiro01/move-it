@@ -70,7 +70,7 @@ O Layout foi desenvolvido pelo [Tiago Luchtenberg](https://www.instagram.com/tia
 - [x] Aula 01
 - [x] Aula 02
 - [x] Aula 03
-- [ ] Aula 04
+- [x] Aula 04
 - [ ] Aula 05
 - [ ] Desafios
 
