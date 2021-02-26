@@ -39,7 +39,7 @@ O move.it é uma aplicação que está sendo desenvolvida durante a Next Level W
 ---
 
 # :eyes: Demo
-Deploy no [Vercel](https://move-it-amber.vercel.app)
+Deploy no [Vercel](https://moveit-snowy-eta.vercel.app)
 
 ---
 
