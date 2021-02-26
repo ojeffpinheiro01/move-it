@@ -26,6 +26,7 @@ interface ChallengesContextData {
   startNewChallenge: () => void,
   resetChallenge: () => void,
   completedChallenge: () => void,
+  closeLevelUpModal: () => void,
 }
 
 
@@ -55,6 +56,10 @@ export function ChallengesProvider({ children,
   function levelUp() {
     setLevel(level + 1)
     setIsLevelUpModalOpen(true)
+  }
+
+  function closeLevelUpModal() {
+    setIsLevelUpModalOpen(false)
   }
 
   function startNewChallenge() {
@@ -103,7 +108,8 @@ export function ChallengesProvider({ children,
         activeChallenge,
         resetChallenge,
         experienceToNextLevel,
-        completedChallenge
+        completedChallenge,
+        closeLevelUpModal
       }}
     >
       {children}
