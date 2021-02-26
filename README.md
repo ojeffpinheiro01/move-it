@@ -37,7 +37,7 @@ Move.it is an application that is being developed during the Next Level Week # 3
 ---
 
 # :eyes: Demo
-Deploy on [Vercel](https://move-it-amber.vercel.app)
+Deploy on [Vercel](https://moveit-snowy-eta.vercel.app)
 
 ---
 
