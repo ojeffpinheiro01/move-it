@@ -9,15 +9,15 @@
 
 [Overview](#book-overview)
 
-[Demo](#eyes-demo)
-
-[Preview](#eyes-demo)
+[Features](#pencil-features)
 
 [Technology](#rocket-technology)
 
-[Layout](#art-layout)
+[Demo](#eyes-demo)
 
-[To Do](#pencil-to-do)
+[Preview](#eyes-preview)
+
+[Layout](#art-layout)
 
 [Running the project](#fire-running-the-project)
 
@@ -32,8 +32,26 @@
 # :book: Overview
 Based on the pomodoro technique, move.it aims to help people who stay in front of the computer for a long time and end up exercising, challenging the user in a fun way. <br />
 Move.it is an application that is being developed during the Next Level Week # 3 - ReactJs Trail - offered by Rocketseat.
-<h4 align="center"> :construction: In development :construction:</h4>
+<h4 align="center"> :construction: 2.0 In development :construction:</h4>
  
+---
+
+# :pencil: Features
+- [x] Start a 25 minute cycle.
+- [x] Abandon cycle.
+- [x] Fires a sound effect when the cycle comes to an end.
+- [x] Sends a notification when the cycle ends.
+- [x] Each cycle releases a new challenge.
+- [x] User earns XP for every challenge completed.
+- [x] User can level up.
+---
+
+# :rocket: Technology
+Este projeto foi desenvolvido com as seguintes tecnologias:
+- [ReactJS](https://pt-br.reactjs.org)
+- [Typescript](typescriptlang.org/)
+- [NextJS](https://nextjs.org)
+
 ---
 
 # :eyes: Demo
@@ -52,28 +70,12 @@ Deploy on [Vercel](https://moveit-snowy-eta.vercel.app)
 
 ---
 
-# :rocket: Technology
-Este projeto foi desenvolvido com as seguintes tecnologias:
-- [ReactJS](https://pt-br.reactjs.org)
-- [Typescript](typescriptlang.org/)
-
----
-
 # :art: Layout
 The Layout was developed by [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/), and you can access it on [Figma](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0/duplicate)
 
 ---
 
-# :pencil: To Do
-- [x] Lesson 01
-- [x] Lesson 02
-- [x] Lesson 03
-- [x] Lesson 04
-- [ ] Lesson 05
-- [ ] Desafios
----
-
-# :fire: Running the project
+# :fire: Running the project 
 ## Precondition <img src="https://4.bp.blogspot.com/-7eg7Qz3UeWM/UTioF3nxNGI/AAAAAAAAPZk/7H509R6acZU/s1600/gif+aviso.gif" width="40px">
 You should have:
 - NodeJS
@@ -93,9 +95,11 @@ $ npm install
 
 ## Run 
 ### Run the application
-$ yarn start
+$ yarn dev
 or 
-$ npm run start
+$ npm run dev
+
+## The app is running on port 3000 - go to <http:// localhost: 3000> 
 ```
 ---
 
