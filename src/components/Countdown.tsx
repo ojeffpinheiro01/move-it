@@ -4,19 +4,19 @@ import styles from "../styles/components/Countdown.module.css";
 
 
 export function Countdown() {
-    const { 
-        minutes, 
-        seconds, 
-        hasFinished, 
-        isActive, 
-        startCountdown, 
+    const {
+        minutes,
+        seconds,
+        hasFinished,
+        isActive,
+        startCountdown,
         resetCountdown
     } = useContext(CountdownContext)
 
     const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('');
     const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('');
 
-    
+
     return (
         <div>
             <div className={styles.countdownContainer}>
@@ -32,7 +32,8 @@ export function Countdown() {
             </div>
             {hasFinished ? (
                 <button disabled className={styles.countdownButton}>
-                    Ciclo Encerado
+                    Ciclo Encerado 
+                    <img src='/icons/check_circle.svg' alt="encerrado" className={styles.icon} />
                 </button>
             ) : (
                     <>
@@ -40,13 +41,15 @@ export function Countdown() {
                             <button type='button'
                                 className={`${styles.countdownButton} ${styles.countdownButtonActive}`}
                                 onClick={resetCountdown}>
-                                Abandonar ciclo
+                                Abandonar ciclo 
+                                <img src='/icons/cancel.svg' alt="abandonar" className={styles.icon} />
                             </button>
                         ) : <button type='button'
                             className={styles.countdownButton}
                             onClick={startCountdown}>
-                                Iniciar ciclo
-                        </button>}
+                                Iniciar ciclo 
+                                <img src='/icons/play_arrow.svg' alt="play" className={styles.icon} />
+                            </button>}
                     </>
                 )}
         </div>
