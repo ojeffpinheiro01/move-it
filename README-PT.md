@@ -7,25 +7,25 @@
 
 ## Menu
 
-[Overview](#book-overview)
+[Sobre o projeto](#book-sobre-o-projeto)
+
+[Funcionalidades](#pencil-funcionalidades)
+
+[Tecnologias](#rocket-tecnologias)
 
 [Demo](#eyes-demo)
 
-[Preview](#eyes-demo)
-
-[Technology](#rocket-technology)
+[Preview](#eyes-preview)
 
 [Layout](#art-layout)
 
-[To Do](#pencil-to-do)
+[Como rodar na sua máquina ](#fire-como-rodar-na-sua-máquina )
 
-[Running the project](#fire-running-the-project)
+[Como contribuir](#gear-como-contribuir)
 
-[How to contribute](#gear-how-to-contribute)
+[Contato](#mailbox-contato)
 
-[Reach me](#mailbox-reach-me)
-
-[Connect with me](#connect-with-me)
+[Siga-me ](#siga-me)
 
 <br>
  
@@ -34,8 +34,27 @@
 # :book: Sobre o projeto 
 Baseada na técnica de pomodoro, o move.it tem como objetivo é ajudar a galera que fica na frente do computador por um longo período e acaba deixando de se exercitar, desafiando o usuário de uma forma divertida.
 O move.it é uma aplicação que está sendo desenvolvida durante a Next Level Week #3 - Trilha ReactJs - oferecida pela Rocketseat
- <h4 align="center">:construction: Em desenvolvimento :construction:</h4>
+ <h4 align="center">:construction: Em desenvolvimento da versão 2.0 :construction:</h4>
  
+---
+
+# :pencil: Funcionalidades
+- [x] Iniciar um ciclo de 25 minutos.
+- [x] Abadornar ciclo.
+- [x] Aviso sonoro quando o ciclo é encerrado.
+- [x] Notificação quando o ciclo é encerrado.
+- [x] Um novo desafio é liberado quando o ciclo é marcado como concluído.
+- [x] Usuário ganha XP a cada desafio concluído.
+- [x] Usuário pode subir de nível.
+
+---
+
+# :rocket: Tecnologias
+Este projeto foi desenvolvido com as seguintes tecnologias:
+- [ReactJS](https://pt-br.reactjs.org)
+- [Typescript](typescriptlang.org/)
+- [NextJS](https://nextjs.org)
+
 ---
 
 # :eyes: Demo
@@ -54,29 +73,12 @@ Deploy no [Vercel](https://moveit-snowy-eta.vercel.app)
 
 ---
 
-# :rocket: Tecnologias
-Este projeto foi desenvolvido com as seguintes tecnologias:
-- [ReactJS](https://pt-br.reactjs.org)
-- [Typescript](typescriptlang.org/)
-
----
-
 # :art: Layout
 O Layout foi desenvolvido pelo [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/), e você pode acessá-lo no [Figma](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0/duplicate)
 
 ---
 
-# :pencil: Tarefas
-- [x] Aula 01
-- [x] Aula 02
-- [x] Aula 03
-- [x] Aula 04
-- [ ] Aula 05
-- [ ] Desafios
-
----
-
-# :fire: Como usar
+# :fire: Como rodar na sua máquina 
 ## Precondition <img src="https://4.bp.blogspot.com/-7eg7Qz3UeWM/UTioF3nxNGI/AAAAAAAAPZk/7H509R6acZU/s1600/gif+aviso.gif" width="40px">
 Você precisa já ter instalado
 - NodeJS
