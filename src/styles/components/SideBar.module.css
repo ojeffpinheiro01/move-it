@@ -1,0 +1,105 @@
+.container {
+  width: 7rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.05));
+  /* background: linear-gradient(to bottom, var(--background-secondary), var(--background-secondary), var(--background-default)); */
+}
+.container header {
+  float: left;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.icons {
+  display: grid;
+  margin-top: -13rem;
+}
+.icons ul {
+  list-style: none;
+}
+
+.icons ul li {
+  height: 100%;
+  margin-right: 0.5rem;
+}
+
+.icons ul li a {
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.8rem;
+  color: var(--side-icon);
+
+  transition: 0.3s all;
+}
+
+.icons ul li a:hover {
+  color: var(--text);
+}
+
+.active {
+  height: 50px;
+  border-right: 4px solid var(--blue-default);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: absolute;
+  left: 0;
+}
+
+.tagget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.tagget .checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(-24px);
+}
+.tagget .label {
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  height: 26px;
+  width: 50px;
+}
+
+.tagget .label .ball {
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 27px;
+  height: 22px;
+  width: 22px;
+  transition: transform 0.2s linear;
+}
+.tagget .label .moon {
+  color: #f1c40f;
+  margin: 0;
+}
+
+.tagget .label .sun {
+  color: #f39c12;
+  margin: 0;
+}
