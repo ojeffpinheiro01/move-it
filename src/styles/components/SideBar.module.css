@@ -48,7 +48,7 @@
 
 .active {
   height: 50px;
-  border-right: 4px solid var(--blue-default);
+  border-right: 4px solid var(--purple);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   position: absolute;

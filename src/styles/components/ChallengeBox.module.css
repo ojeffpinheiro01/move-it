@@ -45,7 +45,7 @@
   }
   
   .challengeActive header {
-    color: var(--blue-default);
+    color: var(--purple);
     font-weight: 600;
     font-size: 1.25rem;
     padding: 0 2rem 1.5rem;
@@ -63,7 +63,7 @@
   .challengeActive main strong {
     font-size: 2rem;
     font-weight: 600;
-    color: var(--titles);
+    color: var(--title);
     margin: 1.5rem 0 1rem;
   }
   
