@@ -1,44 +1,31 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
+
 import styles from '../styles/components/SideBar.module.css'
 
 export function SideBar() {
-    const { route } = useRouter()
-    const [address, setAddress] = useState(route)
+    const { pathname, push } = useRouter()
     return (
         <div className={styles.container}>
             <header>
                 <img src='/icons/logo.svg' className={styles.logo} alt='logo' />
             </header>
-            <div className={styles.icons}>
-                <ul>
-                    <li><Link href='/'>
-                        {address === '/' ? (
-                        <a type='button'>
-                            <div className={styles.active}></div> 
-                            <span><img src='/icons/home.svg' alt="home" /></span>
-                        </a>) : (
-                            <a type='button'>
-                                <span><img src='/icons/home.svg' alt="home" /></span>
-                            </a>
-                            )}
-                    </Link></li>
-                    <li>
-                        <Link href='/ranking'>
-                            {address === '/ranking' ? (
-                                 <a type='button'>
-                                    <div className={styles.active}></div> 
-                                    <span><img src='/icons/award.svg' alt="ranking" /></span>
-                                </a>) : (
-                                 <a type='button'>
-                                 <span><img src='/icons/award.svg' alt="ranking" /></span>
-                             </a>
-                            )}
-                        </Link>
-                    </li>
-                </ul>
+            <div className={styles.navigation}>
+                <button className={`${styles.btnNavigation} ${pathname === '/' && styles.btnNavigationActive}`} 
+                        onClick={() => push('/')}>
+                    { pathname === '/' 
+                        ? <img src='/icons/home-active.svg' alt="ranking" /> 
+                        : <img src='/icons/home.svg' alt="ranking" /> }
+                </button>
+                <button className={`${styles.btnNavigation} ${pathname === '/ranking' && styles.btnNavigationActive}`} 
+                        onClick={() => push('/ranking')}>
+                    { pathname === '/ranking' 
+                        ? <img src='/icons/award-active.svg' alt="ranking" /> 
+                        : <img src='/icons/award.svg' alt="ranking" /> }
+                </button>
             </div>
+
             <div className={styles.tagget}>
                 <input className={styles.checkbox} type="checkbox" name="checkbox" id="checkbox" />
                 <label htmlFor="checkbox" className={styles.label}>

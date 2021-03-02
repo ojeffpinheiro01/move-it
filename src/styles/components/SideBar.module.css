@@ -13,46 +13,45 @@
   padding: 2rem 2rem 0 2rem;
 }
 
-.icons {
-  display: grid;
-  margin-top: -13rem;
-}
-.icons ul {
-  list-style: none;
-}
-
-.icons ul li {
-  height: 100%;
-  margin-right: 0.5rem;
-}
-
-.icons ul li a {
-  width: 100%;
-  height: 100%;
-  padding: 0 2rem;
-  position: relative;
-
+.navigation {  
   display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 1.8rem;
-  color: var(--side-icon);
-
-  transition: 0.3s all;
+  flex-direction: column;
+  width: 100%;
 }
 
-.icons ul li a:hover {
-  color: var(--text);
+.btnNavigation {
+  height: 4rem;
+  width: 100%;
+  margin-bottom: 5px;
+  
+  background-color: transparent;
+  color: var(--text-default);
+  font-size: 2rem;
+  outline-color: var(--purple);
+
+  border: 0;
+  transition: all 0.3s;
 }
 
-.active {
-  height: 50px;
-  border-right: 4px solid var(--purple);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+.btnNavigation:hover {
+  color: var(--purple);
+}
+
+.btnNavigationActive {
+  position: relative;
+  color: var(--purple);
+}
+
+.btnNavigationActive::before {
+  content: '';
+  height: 100%;
+  width: 5px;
+  border-radius: 0 5px 5px 0;
   position: absolute;
+  background: var(--purple);
+  top: 0;
   left: 0;
+  transition: all 0.3s;
 }
 
 .tagget {
