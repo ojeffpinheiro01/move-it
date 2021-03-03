@@ -25,14 +25,14 @@
   .container header {
     font-size: 8.75rem;
     font-weight: 600;
-    color: var(--blue-default);
+    color: var(--purple);
     background: url('/icons/levelup.svg') no-repeat center;
     background-size: contain;
   }
   
   .container strong {
     font-size: 1.25rem;
-    color: var(--titles);
+    color: var(--title);
     margin-top: 0.25rem;
   }
   

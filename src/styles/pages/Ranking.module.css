@@ -1,0 +1,110 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  align-content: flex-start;
+}
+.subcontainer {
+  height: 100vh;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    max-width: 700px;
+  }
+}
+.subcontainer h1 {
+  color: var(--title);
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+.subcontainer section {
+  width: 100%;
+}
+
+.subcontainer table {
+  width: 60rem;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.subcontainer thead tr th:nth-child(2) {
+  padding-left: 1rem;
+}
+
+.subcontainer th {
+  color: var(--text-default);
+  opacity: .5;
+  font-size: .875rem;
+  text-align: start;
+  height: 3rem;
+}
+
+.subcontainer td {
+  background-color: var(--background-secondary);
+  height: 6rem;
+}
+
+.userPosition {
+  width: calc(4.5rem + 5px);
+  
+  border-right: 5px solid var(--background);
+  border-radius: 5px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
+
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.userInfo {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: .5rem;
+}
+
+.userInfo > img {
+  height: 4rem;
+  width: 4rem;
+
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userInfo > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo > div strong{
+  color: var(--title);
+  font-size: 1.25rem;
+
+  margin-bottom: 0.5rem;
+}
+
+.userInfo > div span{
+  font-size: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.userInfo > div span img{
+  margin-right: 0.5rem;
+}
+
+.userExperience {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.userExperience strong {
+  font-weight: 500;
+  color: var(--purple);
+}

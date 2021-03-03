@@ -3,13 +3,16 @@
   --background-secondary: #ffffff;
   --text-default: #666666;
   --text-secondary: #b2b9ff;
-  --titles: #2e384d;
+  --title: #2e384d;
   --red: #e83f5b;
+  --red-light: #FFF5F5;
   --green: #4cd62b;
-  --blue-default: #5965e0;
-  --blue-secondary: #4953b8;
+  --green-light: #f7fff5;
+  --purple: #5965e0;
+  --purple-dark: #4953b8;
   --twitter: #2aa9e0;
   --line: #dcdde0;
+  --side-icon: #c4c4c4;
 }
 
 @media (max-width: 1080px) {
