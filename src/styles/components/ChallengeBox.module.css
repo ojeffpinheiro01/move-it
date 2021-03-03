@@ -113,7 +113,7 @@
   border-color: transparent;
 }
 
-.challengeActive footer button.challengeCompletedButton:hover {
+.challengeActive footer button.challengeSucceededButton:hover {
   background: var(--green);
   color: var(--background-secondary);
   border-color: transparent;
